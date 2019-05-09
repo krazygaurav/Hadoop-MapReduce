@@ -1,0 +1,10 @@
+# Hadoop-MapReduce
+# Tasks
+## Task 1
+How many musician movies have been produced since 1980? Show a chronological order, containing for each year the amount of movies and exact titles.
+
+## Task 2
+Write down a second program that takes the IMDB_id and release_date as parameters. Identify each movie that has similar runtime to the provided one +- 10 minutes. The procedure shall start with movies from the given release_date. Each entry of the list shall include: id, runtime, original title and release date.
+
+## Task 3
+Write down a third program that performs a count of the occurrence for each of three input terms within the field “overview”. Such as for “me, agent, mafia”. Those terms need to be provided as parameters. Each occurrence of the defined term(s) should be counted and the respected movie id tracked. The program should work with one, two and three terms. If no parameters are provided, instead a warning should be displayed. The final list should provide the movie id as well as the number of for each matched word (count).
